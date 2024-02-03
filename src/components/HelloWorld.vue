@@ -1,7 +1,7 @@
 <template>
   <v-container class="fill-height">
     <v-sheet class="text-center fill-height mx-auto">
-      <v-img max-height="250" src="@/assets/home-roof.svg" />
+      <v-img max-height="220" src="@/assets/home-roof.svg" />
 
       <div class="text-body-2 font-weight-light mb-1 text-overline">Welcome to</div>
 
@@ -37,7 +37,7 @@
           </v-btn>
         </v-col>
       </v-row>
-      <v-bottom-navigation absolute color="primary" inset>
+      <v-bottom-navigation color="primary">
         <v-btn icon href="tel:8322583165">
           <v-icon>mdi-phone</v-icon>
           Call James
