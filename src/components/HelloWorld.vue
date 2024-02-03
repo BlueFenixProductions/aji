@@ -1,75 +1,54 @@
 <template>
   <v-container class="fill-height">
-    <v-responsive class="align-center text-center fill-height">
-      <v-img height="300" src="@/assets/home-roof.svg" />
+    <v-sheet class="text-center fill-height mx-auto">
+      <v-img max-height="250" src="@/assets/home-roof.svg" />
 
-      <div class="text-body-2 font-weight-light mb-n1 text-overline">Welcome to</div>
+      <div class="text-body-2 font-weight-light mb-1 text-overline">Welcome to</div>
 
       <h1 class="text-h2 font-weight-bold">AJI's Roofing and Construction</h1>
 
-      <div class="py-14" />
+      <v-divider class="my-6" />
+
+      <blockquote class="text-h4 font-weight-light">
+        Your local area roof company
+      </blockquote>
+
+      <div class="my-2 text-body-1 font-weight-light text-primary">Insurance Claims Specialist</div>
 
       <v-row class="d-flex align-center justify-center">
         <v-col cols="auto">
-          <v-btn
-            href="javascript:void(0)"
-            min-width="164"
-            rel="noopener noreferrer"
-            target="_blank"
-            variant="text"
-          >
-            <v-icon
-              icon="mdi-view-dashboard"
-              size="large"
-              start
-            />
+          <v-btn min-width="164" size="x-large" variant="text" @click="openGallery">
+            <v-icon icon="mdi-image-multiple" size="large" start />
 
             Free Estimates
           </v-btn>
-        </v-col>
-
-        <v-col cols="auto">
-          <v-btn
-            color="primary"
-            href="javascript:void(0)"
-            min-width="228"
-            rel="noopener noreferrer"
-            size="x-large"
-            target="_blank"
-            variant="flat"
-          >
-            <v-icon
-              icon="mdi-home-roof"
-              size="large"
-              start
-            />
+          <v-btn color="primary" href="mailto:ajiroofing@yahoo.com" min-width="228" size="x-large" variant="elevated">
+            <v-icon icon="mdi-home-roof" size="large" start />
 
             Get A Quote
           </v-btn>
         </v-col>
 
         <v-col cols="auto">
-          <v-btn
-            href="javascript:void(0)"
-            min-width="164"
-            rel="noopener noreferrer"
-            target="_blank"
-            variant="text"
-          >
-            <v-icon
-              icon="mdi-book-lock-outline"
-              size="large"
-              start
-            />
+          <v-btn href="javascript:void(0)" min-width="164" variant="text">
+            <v-icon icon="mdi-book-lock-outline" size="large" start />
 
             Insured & Bonded
           </v-btn>
         </v-col>
       </v-row>
-    </v-responsive>
+      <v-bottom-navigation absolute color="primary" inset>
+        <v-btn icon href="tel:8322583165">
+          <v-icon>mdi-phone</v-icon>
+          Call James
+        </v-btn>
+      </v-bottom-navigation>
+    </v-sheet>
   </v-container>
 </template>
 
 <script setup>
-  //
+const openGallery = () => {
+  alert('Gallery coming soon!')
+}
 </script>
