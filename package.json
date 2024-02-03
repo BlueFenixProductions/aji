@@ -1,7 +1,25 @@
 {
-  "name": "aji",
-  "version": "4.4.130",
+  "name": "ajis-roofing-and-construction",
+  "version": "2.14.203",
   "type": "module",
+  "main": "index.js",
+  "author": {
+    "name": "Chris Pelatari",
+    "email": "chris@bluefenix.net",
+    "url": "https://bluefenix.net"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChrisPelatari/aji.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ChrisPelatari/aji/issues"
+  },
+  "homepage": "https://aji.bluefenix.net",
+  "description": "Digital Projection for AJI Roofing and Construction",
+  "icon": "favicon.ico",
+  "private": true,
   "scripts": {
     "dev": "cross-env NODE_OPTIONS='--no-warnings' vite",
     "build": "vite build",

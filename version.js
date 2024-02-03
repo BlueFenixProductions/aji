@@ -5,11 +5,11 @@ import fs from 'fs'
 //read the package.json file
 const pkg = JSON.parse(fs.readFileSync('package.json'))
 
-//make the major number 4.
-pkg.version = '4'
+//make the major number 2.
+pkg.version = '2'
 
-//make the minor number this year minus 2020
-pkg.version = `${pkg.version}.${new Date().getFullYear() - 2020}`
+//make the minor number this year minus 2010 - blue fenix rises.
+pkg.version = `${pkg.version}.${new Date().getFullYear() - 2010}`
 
 //make the patch number the combined month and day of the month
 const month = new Date().getMonth() + 1
@@ -27,7 +27,7 @@ pkg.version = `${pkg.version}.${month}${day}`
 fs.writeFileSync('package.json', JSON.stringify(pkg, null, 2))
 
 //write the version number to the console
-console.log(`Version updated to ${pkg.version}`)
+console.log(`${pkg.name} version updated to ${pkg.version}. A Blue Fenix Prodcution. ${pkg.homepage}`)
 
 //return the version number
 export default pkg.version
