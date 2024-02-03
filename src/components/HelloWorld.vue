@@ -1,18 +1,18 @@
 <template>
   <v-container class="fill-height">
     <v-responsive class="align-center text-center fill-height">
-      <v-img height="300" src="@/assets/logo.svg" />
+      <v-img height="300" src="@/assets/home-roof.svg" />
 
-      <div class="text-body-2 font-weight-light mb-n1">Welcome to</div>
+      <div class="text-body-2 font-weight-light mb-n1 text-overline">Welcome to</div>
 
-      <h1 class="text-h2 font-weight-bold">Vuetify</h1>
+      <h1 class="text-h2 font-weight-bold">AJI's Roofing and Construction</h1>
 
       <div class="py-14" />
 
       <v-row class="d-flex align-center justify-center">
         <v-col cols="auto">
           <v-btn
-            href="https://vuetifyjs.com/components/all/"
+            href="javascript:void(0)"
             min-width="164"
             rel="noopener noreferrer"
             target="_blank"
@@ -24,14 +24,14 @@
               start
             />
 
-            Components
+            Free Estimates
           </v-btn>
         </v-col>
 
         <v-col cols="auto">
           <v-btn
             color="primary"
-            href="https://vuetifyjs.com/introduction/why-vuetify/#feature-guides"
+            href="javascript:void(0)"
             min-width="228"
             rel="noopener noreferrer"
             size="x-large"
@@ -39,30 +39,30 @@
             variant="flat"
           >
             <v-icon
-              icon="mdi-speedometer"
+              icon="mdi-home-roof"
               size="large"
               start
             />
 
-            Get Started
+            Get A Quote
           </v-btn>
         </v-col>
 
         <v-col cols="auto">
           <v-btn
-            href="https://community.vuetifyjs.com/"
+            href="javascript:void(0)"
             min-width="164"
             rel="noopener noreferrer"
             target="_blank"
             variant="text"
           >
             <v-icon
-              icon="mdi-account-group"
+              icon="mdi-book-lock-outline"
               size="large"
               start
             />
 
-            Community
+            Insured & Bonded
           </v-btn>
         </v-col>
       </v-row>
