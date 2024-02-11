@@ -1,7 +1,7 @@
 <template>
   <v-container class="fill-height">
     <v-sheet class="text-center fill-height mx-auto">
-      <v-img max-height="220" src="@/assets/home-roof.svg" />
+      <v-img max-height="220" src="@/assets/aji_logo_light.png" />
 
       <div class="text-body-2 font-weight-light mb-1 text-overline">Welcome to</div>
 
@@ -22,7 +22,7 @@
 
             Free Estimates
           </v-btn>
-          <v-btn color="primary" href="mailto:ajiroofing@yahoo.com" min-width="228" size="x-large" variant="elevated">
+          <v-btn color="primary" href="mailto:james@ajiroofingtx.com" min-width="228" size="x-large" variant="elevated">
             <v-icon icon="mdi-home-roof" size="large" start />
 
             Get A Quote
