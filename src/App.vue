@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar app color="primary">
       <v-app-bar-nav-icon>
-        <v-icon>mdi-home-roof</v-icon>
+        <v-switch v-model="darkTheme" inset />
       </v-app-bar-nav-icon>
     </v-app-bar>
     <v-main>
@@ -10,3 +10,8 @@
     </v-main>
   </v-app>
 </template>
+
+<script setup>
+const darkTheme = ref(false)
+
+</script>
