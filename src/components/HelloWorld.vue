@@ -1,7 +1,12 @@
 <template>
   <v-container class="fill-height">
-    <v-sheet class="text-center fill-height mx-auto">
-      <v-img max-height="220" src="@/assets/aji_logo_light.png" />
+    <v-sheet class="align-center text-center w-100 fill-height rounded">
+      <v-theme-provider v-if="theme.global.name.value === 'dark'">
+        <v-img max-height="220" src="@/assets/aji_logo_dark.png" />
+      </v-theme-provider>
+      <v-theme-provider v-else>
+        <v-img max-height="220" src="@/assets/aji_logo_light.png" />
+      </v-theme-provider>
 
       <div class="text-body-2 font-weight-light mb-1 text-overline">Welcome to</div>
 
@@ -48,6 +53,10 @@
 </template>
 
 <script setup>
+import { useTheme } from 'vuetify/lib/framework.mjs'
+
+const theme = useTheme()
+
 const openGallery = () => {
   alert('Gallery coming soon!')
 }
