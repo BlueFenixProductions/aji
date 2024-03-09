@@ -27,7 +27,7 @@
 
             Free Estimates
           </v-btn>
-          <v-btn color="primary" href="mailto:james@ajiroofingtx.com" min-width="228" size="x-large" variant="elevated">
+          <v-btn color="primary" href="mailto:info@ajiroofingtx.com" min-width="228" size="x-large" variant="elevated">
             <v-icon icon="mdi-home-roof" size="large" start />
 
             Get A Quote
@@ -46,6 +46,10 @@
         <v-btn icon href="tel:8322583165">
           <v-icon>mdi-phone</v-icon>
           Call James
+        </v-btn>
+<v-btn icon href="tel:8322499140">
+          <v-icon>mdi-phone</v-icon>
+          Call Victor
         </v-btn>
       </v-bottom-navigation>
     </v-sheet>
