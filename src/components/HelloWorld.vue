@@ -22,7 +22,7 @@
 
       <v-row class="d-flex align-center justify-center">
         <v-col cols="auto">
-          <v-btn min-width="164" size="x-large" variant="text" @click="openGallery">
+          <v-btn min-width="164" size="x-large" variant="text" href="#gallery">
             <v-icon icon="mdi-image-multiple" size="large" start />
 
             Free Estimates
@@ -42,12 +42,48 @@
           </v-btn>
         </v-col>
       </v-row>
+
+      <hr class="my-6">
+
+      <a name="gallery" />
+      <!-- <v-row class="d-flex align-center justify-center">
+        <v-col cols="auto">
+          <video playsinline autoplay muted loop>
+            <source src="@/assets/dji_fly_20230808.mov" type='video/quicktime'>
+          </video>
+        </v-col>
+      </v-row> -->
+
+      <v-row class="mx-auto">
+        <v-col cols="12" sm="6" md="4">
+          <v-img src="@/assets/dji_fly_20230906.jpg" />
+        </v-col>
+        <v-col cols="12" sm="6" md="4">
+          <v-img src="@/assets/dji_fly_20231206.jpg" />
+        </v-col>
+        <v-col cols="12" sm="6" md="4">
+          <v-img src="@/assets/dji_fly_20231206_done.jpg" />
+        </v-col>
+      </v-row>
+
+      <v-row class="mx-auto">
+        <v-col cols="12" sm="6" md="4">
+          <v-img src="@/assets/dji_fly_20240129.jpg" />
+        </v-col>
+        <v-col cols="12" sm="6" md="4">
+          <v-img src="@/assets/dji_fly_20240102.jpg" />
+        </v-col>
+        <v-col cols="12" sm="6" md="4">
+          <v-img src="@/assets/dji_fly_20240201.jpg" />
+        </v-col>
+      </v-row>
+
       <v-bottom-navigation color="primary">
         <v-btn icon href="tel:8322583165">
           <v-icon>mdi-phone</v-icon>
           Call James
         </v-btn>
-<v-btn icon href="tel:8322499140">
+        <v-btn icon href="tel:8322499140">
           <v-icon>mdi-phone</v-icon>
           Call Victor
         </v-btn>
