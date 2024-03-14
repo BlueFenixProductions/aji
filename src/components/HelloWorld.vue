@@ -46,8 +46,11 @@
       <hr class="my-6">
 
       <a name="gallery" />
-      <v-card class="my-6">
+      <v-card class="my-6" id="gif-card">
         <v-img src="@/assets/gallery_overview.gif" />
+        <v-card-actions>
+          <v-btn color="primary" @click="closeGif">Close</v-btn>
+        </v-card-actions>
       </v-card>
 
       <v-row class="mx-auto">
@@ -93,7 +96,7 @@ import { useTheme } from 'vuetify/lib/framework.mjs'
 
 const theme = useTheme()
 
-const openGallery = () => {
-  alert('Gallery coming soon!')
+const closeGif = () => {
+  document.getElementById('gif-card').style.display = 'none'
 }
 </script>
