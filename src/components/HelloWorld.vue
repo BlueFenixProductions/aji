@@ -46,13 +46,9 @@
       <hr class="my-6">
 
       <a name="gallery" />
-      <!-- <v-row class="d-flex align-center justify-center">
-        <v-col cols="auto">
-          <video playsinline autoplay muted loop>
-            <source src="@/assets/dji_fly_20230808.mov" type='video/quicktime'>
-          </video>
-        </v-col>
-      </v-row> -->
+      <v-card class="my-6">
+        <v-img src="@/assets/dji_fly_20230808.gif" />
+      </v-card>
 
       <v-row class="mx-auto">
         <v-col cols="12" sm="6" md="4">
