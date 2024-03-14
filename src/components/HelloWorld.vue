@@ -47,7 +47,7 @@
 
       <a name="gallery" />
       <v-card class="my-6">
-        <v-img src="@/assets/dji_fly_20230808.gif" />
+        <v-img src="@/assets/gallery_overview.gif" />
       </v-card>
 
       <v-row class="mx-auto">
