@@ -5,8 +5,8 @@ import fs from 'fs'
 //read the package.json file
 const pkg = JSON.parse(fs.readFileSync('package.json'))
 
-//make the major number 2.
-pkg.version = '2'
+//make the major number 3. 3 is the magic number
+pkg.version = '3.0.0'
 
 //make the minor number this year minus 2010 - blue fenix rises.
 pkg.version = `${pkg.version}.${new Date().getFullYear() - 2010}`
