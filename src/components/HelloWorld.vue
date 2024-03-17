@@ -10,7 +10,7 @@
 
       <div class="text-body-2 font-weight-light mb-1 text-overline">Welcome to</div>
 
-      <h1 class="text-h2 font-weight-bold">AJI's Roofing TX</h1>
+      <h1 class="text-h2 font-weight-bold">AJI's Roofing & Construction, LLC</h1>
 
       <v-divider class="my-6" />
 
