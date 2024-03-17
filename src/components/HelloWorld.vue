@@ -27,7 +27,7 @@
 
             Free Estimates
           </v-btn>
-          <v-btn color="primary" href="mailto:info@ajiroofingtx.com" min-width="228" size="x-large" variant="elevated">
+          <v-btn color="primary" href="mailto:support@ajiroofingtx.com" min-width="228" size="x-large" variant="elevated">
             <v-icon icon="mdi-home-roof" size="large" start />
 
             Get A Quote
