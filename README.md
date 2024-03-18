@@ -26,7 +26,7 @@ Welcome to AJI's Roofing and Construction, your trusted partner for all your roo
 
 Ready to get started on your roofing or construction project? Contact us today for a free consultation and estimate.
 - Phone: [(832)258-3165](tel:8322583165)
-- Email: [info@ajiroofingtx.com](mailto:info@ajiroofingtx.com)
+- Email: [info@ajiroofingtx.com](mailto:support@ajiroofingtx.com)
 - Website: https://ajiroofingtx.com
 
 We look forward to serving you and making your roofing and construction dreams a reality!
