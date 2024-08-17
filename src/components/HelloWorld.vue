@@ -82,10 +82,6 @@
           <v-icon>mdi-phone</v-icon>
           Call James
         </v-btn>
-        <v-btn icon href="tel:8324989140">
-          <v-icon>mdi-phone</v-icon>
-          Call Victor
-        </v-btn>
       </v-bottom-navigation>
     </v-sheet>
   </v-container>
